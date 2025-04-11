@@ -1,2 +1,41 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Bytecode ve derlenmiş Python dosyaları
+__pycache__/
+*.pyc
+*.pyo
+
+# Sanal ortam klasörleri
+env*/
+venv*/
+*.env/
+.venv/
+
+# Ortam değişken dosyaları
+.env
+
+# Oluşturulan çıktı dosyaları
+/outputs/
+
+# Derleme ve dağıtım çıktıları
+/build/
+*/dist/
+*.egg-info/
+
+# Geliştirme ortamına özel ayarlar
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Geçici/önbellek dosyaları
+*.swp
+*.tmp
+*.bak
+
+# İşletim sistemi kaynaklı dosyalar (macOS, Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
